@@ -1,0 +1,6 @@
+﻿  Program.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Renderer.vcxproj -> C:\Users\Misis Account\Projects\OkulaR\Renderer\x64\Release\Renderer.exe
