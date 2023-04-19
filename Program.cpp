@@ -9,7 +9,7 @@
 
 int main()
 {
-	Renderer::Application application_instance{};
+	Renderer::Application application_instance{}; 
 
 	try 
 	{

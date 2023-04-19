@@ -1,9 +1,9 @@
-﻿  Program.cpp
-  Application.cpp
+﻿  Application.cpp
+  Program.cpp
   Window.cpp
   Generating code
-  79 of 87 functions (90.8%) were compiled, the rest were copied from previous compilation.
-    76 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  2 of 87 functions ( 2.3%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Renderer.vcxproj -> C:\Users\Misis Account\Projects\OkulaR\Renderer\x64\Release\Renderer.exe

@@ -12,6 +12,10 @@ namespace Renderer
 		Window(int width, int height, std::string title);
 		~Window();
 
+		Window(const Window&) = delete; // Removes copy constructor from all windows;
+		Window& operator=(const Window&) = delete; // removes assignment operation for all windows;
+
+		// Whether window should be closed - controlled by glfw access to OS's api;
 		bool ShouldClose();
 	private:
 
@@ -22,8 +26,7 @@ namespace Renderer
 
 		GLFWwindow* window;
 
-
-		void initializeWindow();
+		void initialize();
 
 	};
 }

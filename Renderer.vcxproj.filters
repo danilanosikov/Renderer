@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Renderer\Window">
       <UniqueIdentifier>{65802762-53d1-4b49-ae77-8bd3843fd857}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{f4831421-ed5b-4fb1-b6e9-432a3d898bfc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
@@ -41,5 +44,10 @@
     <ClInclude Include="Application.h">
       <Filter>Source Files\Renderer\Application</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FirstShader.vert">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@ namespace Renderer
 {
 	Window::Window(int w, int h, std::string t) : width{ w }, height{ h }, title{ t }
 	{
-		initializeWindow();
+		initialize();
 	}
 
 	Window::~Window()
@@ -14,7 +14,7 @@ namespace Renderer
 		glfwTerminate();
 	}
 
-	void Window::initializeWindow() 
+	void Window::initialize() 
 	{
 		glfwInit();
 		glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
