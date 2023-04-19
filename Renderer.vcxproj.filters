@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{d5eac719-4fbb-487d-9edd-d1e469cb2a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Application">
+      <UniqueIdentifier>{b1de0135-8f7d-494d-84bb-3ed958312685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\Window">
+      <UniqueIdentifier>{65802762-53d1-4b49-ae77-8bd3843fd857}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Renderer\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Renderer\Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\Renderer\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\Renderer\Application</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

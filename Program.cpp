@@ -1,19 +1,24 @@
+#include "Application.h"
+
 #include <iostream>
-#include "vulkan\vulkan.h"
+#include <cstdlib>
+#include <stdexcept>
+
+
+
 
 int main()
 {
-	VkInstanceCreateInfo info = {};
-	VkInstance instance;
+	Renderer::Application application_instance{};
 
-	if (vkCreateInstance(&info, nullptr, &instance) == VK_SUCCESS) 
+	try 
 	{
-		std::cout << "Initialised!" << '\n';
+		application_instance.run();
 	}
-	else 
+	catch(std::exception &e)
 	{
-		std::cout << "You Succc!" << '\n';
+		std::cerr << e.what() << '\n';
+		return EXIT_FAILURE;
 	}
-	system("pause");
-	return 0;
+	return EXIT_SUCCESS;
 }
